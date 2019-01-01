@@ -1,0 +1,43 @@
+{
+  "name": "geez-typing-tutor",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
+    "babel-cli": "^6.26.0",
+    "bootstrap": "^4.2.1",
+    "electron": "^4.0.0",
+    "electron-installer-debian": "^1.0.1",
+    "electron-installer-dmg": "^2.0.0",
+    "electron-installer-flatpak": "^0.8.0",
+    "electron-installer-redhat": "^0.5.0",
+    "electron-installer-snap": "^3.0.1",
+    "electron-installer-windows": "^1.1.0",
+    "electron-packager": "^13.0.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^2.1.2",
+    "serve-static": "^1.13.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jasmine",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

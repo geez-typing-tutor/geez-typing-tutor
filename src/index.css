@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Ethiopic Monospaced';
+  src: url('fonts/NotoSansEthiopic-RegularMonospaced.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Ethiopic';
+  src: url('fonts/NotoSansEthiopic-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Noto Sans Ethiopic';
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: auto;
+  width: 1024px;
+  height: 600px;
+}
+
+.menu {
+  background-image: url('images/fidel-background.svg.png');
+  border-radius: 10px; 
+  border: 1px inset #999;
+  float: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 600px;
+  width: 1024px;
+  text-align: center;
+}
+
+.menu-title {
+  color: #000;
+  text-align: center;
+  border-radius: 10px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #d7e360;
+  width: 600px;
+  padding: 10px;
+  height: auto;
+}
+
+.menu-btns {
+  padding-top: 50px;
+}
+
+.typing-tutor {
+  background: #d7e360;
+  border-radius: 10px;
+  border: 1px inset #999;
+  float: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 600px;
+  width: 1024px;
+  text-align: left;
+  color: #000;
+}
+
+.typing-tutor-hand-placement {
+  height: 250px;
+}
+
+.typing-tutor-lesson {
+  background: #bfc956;
+  overflow-y: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 440px;
+}
+
+.typing-tutor-help {
+  background: #f5ff86;
+  color: #000;
+  height: 50px;
+  font-family: 'monospace';
+  font-size: 10pt;
+  padding-top: 1px;
+}
+
+.typing-tutor-lessons-list-container {
+  background: #f5ff86;
+  border-top: 0.5px solid rgb(119, 119, 119);
+  border-bottom: 0.5px solid rgb(119, 119, 119);
+  border-right: 0.5px solid rgb(119, 119, 119);
+  color: black;
+  text-emphasis: emph;
+  overflow-y: auto;
+  height: 490px;
+}
+
+.typing-tutor-lessons-list-btn {
+  margin: 0px;
+}
+
+.typing-tutor-control-element {
+  font-family: 'Noto Sans Ethiopic';
+  font-size: 15pt;
+}
+
+.typing-tutor-info-element {
+  font-family: 'Noto Sans Ethiopic';
+  font-size: 14pt;
+}
+
+.typing-tutor-title {
+  margin: 25px;
+  color: black;
+}
+
+.typing-tutor-menu-btn {
+  margin: 15px;
+}
+
+.typing-tutor-underlined-char {
+  text-decoration-line: underline;
+}
+
+.typed-char-correct {
+  color: #444;
+  margin: 0px;
+  padding: 0px;
+}
+
+.typed-char-incorrect {
+  color: rgb(200, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+.typing-tutor-text-line {
+  border-top: 1px dotted #000;
+  color: #000;
+  font-size: 12pt;
+  font-family: 'Ethiopic Monospaced';
+  font-weight: lighter;
+  float: left;
+  width: 100%;
+}
+
+.typing-tutor-typed-line {
+  font-size: 12pt;
+  font-family: 'Ethiopic Monospaced';
+  font-weight: lighter;
+  float: left;
+  width: 100%;
+}
+
+.typing-tutor-footer-incomplete {
+  color: #fcffe1;
+}
+
+.typing-tutor-footer-complete {
+  color: red;
+}
+
+.typing-tutor-nolines {
+  font-weight: lighter;
+}
+
+.typing-instructions {
+  background: #d7e360;
+  border-radius: 10px;
+  border: 1px solid #999;
+  width: 1024px;
+  height: 600px;
+}
+
+.typing-instructions-title {
+  margin: auto;
+  color: black;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.typing-instructions-overview {
+  padding: 15px;
+}
+
+.typing-instructions-table {
+  background: #d2d4aa;
+  overflow-y: scroll;
+  width: auto;
+  height: 400px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.typing-instructions-english {
+  font-family: monospace;
+}
