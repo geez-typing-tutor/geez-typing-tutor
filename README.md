@@ -1,3 +1,7 @@
+## Installation
+
+You can use this app on the web [here](https://geez-typing-tutor.github.io/) or you can download the binaries for your system on from the [releases page](https://github.com/geez-typing-tutor/geez-typing-tutor/releases).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
